@@ -45,8 +45,8 @@ for pid_set,pid in enumerate(p_ids):
 	time.sleep(1)
 	browser.find_element_by_xpath('//div[@class="tab-item"]/a').click()
 
-	browser.find_element_by_xpath('//input[@id="user"]').send_keys('15757933663')
-	browser.find_element_by_xpath('//input[@id="pass"]').send_keys('ZQJpqtyxz8426.')
+	browser.find_element_by_xpath('//input[@id="user"]').send_keys('')
+	browser.find_element_by_xpath('//input[@id="pass"]').send_keys('')
 
 	browser.find_element_by_xpath('//button[@class="login-btn"]').click()
 	time.sleep(1)

@@ -61,6 +61,7 @@ wait.until(EC.presence_of_element_located((By.XPATH, song_xpath)))
 # 		wait.until(EC.visibility_of_element_located((By.ID, 'msgTips')))
 # except Exception as e:
 # 	print(e)
+
 while True:
 	time.sleep(5)
 	print('手动加载所有歌曲：')

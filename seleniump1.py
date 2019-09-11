@@ -99,7 +99,7 @@ browser.execute_script('alert("结束")')
 # 		track.append(round(move))
 # 	return track
 
-'''
+
 # 滑动登陆淘宝，失败，原因selenium判定
 
 # 模拟人拉动滑块轨迹
@@ -290,4 +290,3 @@ try100()
 
 # tab.drag_and_drop_by_offset(slip, 258, 0).perform()
 # tab.move_to_element(slip).release()
-'''

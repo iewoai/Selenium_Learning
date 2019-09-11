@@ -27,6 +27,7 @@ def text_reco(img_path):
 			# os.remove(img_path)
 			image = Image.open(img_new_path)
 		else:
+			
 		'''
 		image = Image.open(img_path)
 		# # 英文

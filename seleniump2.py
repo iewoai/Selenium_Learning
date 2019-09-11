@@ -34,6 +34,7 @@ def sign_in():
 	password.send_keys(user_password)
 
 	time.sleep(2)
+	
 sign_in()
 time.sleep(0.5)
 login_button = browser.find_element_by_xpath(login_xpath)
